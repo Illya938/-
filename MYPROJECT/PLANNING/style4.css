@@ -1,0 +1,55 @@
+body { 
+    font-family: Arial, sans-serif;
+    text-align: center; 
+     } 
+.header { 
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; font-size: 20px; font-weight: bold;
+     } 
+     
+.nav { 
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10%; font-size: 18px; 
+      } 
+      
+.image-container { 
+    width: 50%; height: 200px; border: 2px solid black;
+    margin: 0 auto; 
+     } 
+     
+.content { 
+    display: flex;
+     justify-content: center;
+      margin-top: 20px; 
+      } 
+      
+.column { 
+    width: 40%; text-align: center;
+     } 
+     
+.box { 
+    border: 2px solid black;
+    padding: 10px; margin-bottom: 10px; font-size: 18px; 
+    } 
+    
+.audio-list { 
+    text-align: left;
+    } 
+    
+.audio-item { 
+    display: flex; 
+    align-items: center; 
+    border: 1px solid black; 
+    margin-bottom: 5px; padding: 5px; 
+    } 
+
+.audio-item audio { 
+    flex-grow: 1; 
+    } 
+    
+.dots { 
+    text-align: left; 
+    padding: 10px; font-size: 18px; 
+    } 
